@@ -21,11 +21,11 @@ export const Country = props => {
             
               
                 <div className='col-one'>
-                    <h3 className='sub'>Country </h3>
-                    <h3 className='sub'>Last Update </h3> 
-                    <h3 className='sub'>Confirmed Cases</h3> 
-                    <h3 className='sub'>Recovered Cases</h3> 
-                    <h3 className='sub'>Deaths </h3>
+                    <h3>Country </h3>
+                    <h3>Last Update </h3> 
+                    <h3>Confirmed Cases</h3> 
+                    <h3>Recovered Cases</h3> 
+                    <h3>Deaths </h3>
                 </div>
                 <div className='col-two'>
                     <h3>{props.country.countryRegion}</h3>

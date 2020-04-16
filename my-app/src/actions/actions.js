@@ -10,7 +10,7 @@ export const getCovid19 = () => dispatch => {
     .get('https://covid19.mathdro.id/api/confirmed')
     .then(response => 
         dispatch({type: SUCCESS, payload: response.data})
-        // console.log(response.data)
+        
         
         )
     .catch(error => dispatch({type: FAILURE, payload: error}))
